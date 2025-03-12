@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* Vamos criar nosso primeiro CSS */
+
+body{
+    background-color: #a4bbca;
+}
+
+*{
+ margin: 0;
+ /*  */
+ padding: 0;
+ /*  */
+ box-sizing: border-box; 
+ /* Essa propriedade altera a forma como a largura e altura de um elemento são calculadas. */
+ font-family: 'Times New Roman', Times, serif;
+ /*  */
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #454e6b;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    color: #3e6e8a;
+    margin: 16px;
+}
+
+#sasa{
+    background-color: #7e1d1d;
+    font-size: larger;
+    margin-right: 14px;
+    color: #53BCC6;
+}
+
+#beea{
+    background-color: #454e6b;
+    font-size: larger;
+    margin-right: 16px;
+    color: bisque;
+}
