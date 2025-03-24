@@ -4,6 +4,8 @@
     --primary-color: #79CDD6;
     --secondary-color: #52ACB1;
     --tercerery-color: #084A4C;
+    --colortext: #F7F7F7;
+    --colortextsec: #0f0f0f;
 }
 
 * {
@@ -13,26 +15,46 @@
 }
 
 html{
-    height: 0vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    font-style: oblique;
+    /* font-family: 'Times New Roman', Times, serif; SERIFA */
+    /* font-family: 'Courier New', Courier, monospace; SERIFA */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; SERIFA */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; SERIFA */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: linear-gradient(to right, #79cdd6, #52acb1, #084a4c);
+    /* font-family: Arial, sans-serif; */
+    background-image: linear-gradient(to top, #79cdd6, #52acb1, #084a4c);
     margin: 90;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: var(--colortext);
 }
 
 header{
-    background-color: var(--secondary-color);
-    height: 10vh;
+    background-color: (to left, #79cdd6, #52acb1, #084a4c);
+    height: 7vh;
+    text-align: center;
+    /* margin: 0.1%; */
+    color: var(--colortext);
+}
+
+h1{
+    text-transform:uppercase ;
+    text-align: center;
+    padding: 0.3em;
+    text-transform: uppercase;
 }
 
 menu, ul{
     background-color: var(--primary-color);
-    height: 0,8vh;
+    height: 0,7vh;
     text-align: center;
+    /* list-style: none; */
+    list-style-type: none;
 }
 
 li{
@@ -40,12 +62,60 @@ li{
     padding: 1vh;
 }
 
-section{
-    background-color: var(--tercerery-color);
+section, h2{
+    /* background-color: var(--tercerery-color); */
     height: auto;
+    color: var(--colortext);
+    text-align: left;
+
+}
+
+h2{
+    margin: 4px;
+   
+}
+
+article{
+    margin: 25px;
+    text-align: left;
+    text-indent: 2.1em;
+}
+
+p{
+    margin: 0.6em;
 }
 
 footer{
-    background-color: var(--primary-color);
+    background-color: var(--tercerery-color);
     height: 0,8vh;
+    text-align: center;
+}
+
+button {
+   margin: 0px 25px;
+    background-color: var(--secondary-color);
+    width: 8vw;
+    border: solid var(--colortext);
+    border-radius: 0.8em;
+}
+
+a{
+    color: var(--colortext);
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: var(--tercerery-color);
+    border: none;
+    border-radius: 0.8em;
+
+    color: var(--colortext);
+}
+
+img{
+    text-align: center;
+    height: 35vh;
+    width: 35vw;
+    margin: 2 10;
+    border-radius: 22 16;
 }
