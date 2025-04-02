@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Toda a estrutura de site está OK -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile First</title>
+    <link rel="shortcut icon" href="./assets/pictures/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/mfstyle.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Mobile Fist</h1>
+    </header>
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="#">Smartphone</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">Desktop</a></li>
+            <li><a href="#">Smart_tv</a></li>
+            <!-- por iquantu nothing -->
+        </ul>
+    </menu>
+
+    <section>
+
+        <img src="./assets/pictures/icon-phone.png" alt="testando com celular" id="mobile">
+        <img src="./assets/pictures/icon-tablet.png" alt="testando com tablet" id="tablet">
+        <img src="./assets/pictures/icon-pc.png" alt="testando com PC" id="pc">
+        <img src="./assets/pictures/icon-tv.png" alt="testando com tv" id="tv">
+
+        <article>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius culpa natus sint qui quis sed vel,
+                aspernatur illum inventore fugit fugiat adipisci, voluptatibus modi eaque maiores minus cum possimus a.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam inventore, pariatur quaerat
+                necessitatibus nulla amet illo itaque iusto illum eveniet iure tenetur repudiandae repellat rem
+                laboriosam esse alias dolorem deleniti.
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        <p>
+            @nskmarques - Vocação 2025 &copysr;
+        </p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
