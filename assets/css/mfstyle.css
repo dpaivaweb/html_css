@@ -148,7 +148,7 @@ img#tv {
     /* Mudar o formato do menu quando estiver em outras midias */
 
     body {
-        background-image: url("./assets/pictures/back-tablet.png");
+        background-image: url("../assets/pictures/back-tablet.png");
     }
 
     #burger {
@@ -219,7 +219,7 @@ img#tv {
     /* Mudar o formato do menu quando estiver em outras midias */
 
     body {
-        background-image: url("./assets/pictures/back-pc.png");
+        background-image: url("../assets/pictures/back-pc.png");
     }
 
     #burger {
@@ -290,7 +290,7 @@ img#tv {
     /* Mudar o formato do menu quando estiver em outras midias */
 
     body {
-        background-image: url("./assets/pictures/back-tv.png");
+        background-image: url("../assets/pictures/back-tv.png");
         background-repeat: repeat-x;
         background-attachment: fixed;
     }
