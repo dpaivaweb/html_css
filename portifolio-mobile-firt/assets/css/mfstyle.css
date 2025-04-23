@@ -71,19 +71,24 @@ ul{
 
 section {
     background-color: var(--colorsecond);
+    height: max-content;
     width: 90vw;
     margin: auto;
     color: var(--colortext);
-    text-align: center;
+    text-align: justify;
     border-radius: 7px 7px 8px 8px;
 }
 
 article {
-    margin: 25px;
-    padding: 32px;
-    text-align: center;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: auto;
+    padding: 7px 7px 10px 10px;
     text-indent: 2.1px;
 }
+
 
 p {
     margin: 0.6px;
@@ -122,6 +127,24 @@ footer>p {
     /* width: 90vw; */
 }
 
+#iconav {
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-bottom: 5px;
+  }
+
+/* <a href="seu-link.html" id="meuLink">
+  <img id="imagemParaTrocar" src="sua-imagem-inicial.jpg" alt="Imagem Inicial"></a>
+
+#imagemParaTrocar {
+  transition: opacity 0.3s ease-in-out; /* Opcional: para uma transição suave 
+
+#meuLink:hover #imagemParaTrocar {
+  content: url('sua-imagem-hover.jpg'); /* Isso NÃO funciona para elementos <img> */
+
+
+
 img {
     display: block;
     margin: auto;
@@ -148,7 +171,7 @@ img#tv {
     /* Mudar o formato do menu quando estiver em outras midias */
 
     body {
-        background-image: url("/assets/pictures/back-tablet.png");
+        background-image: url("../back-tablet.png");
     }
 
     #burger {
@@ -219,7 +242,8 @@ img#tv {
     /* Mudar o formato do menu quando estiver em outras midias */
 
     body {
-        background-image: url("/assets/pictures/back-pc.png");
+        background-image: url("../back-pc.png");
+        /* background-image: url("../assets/pictures/back-pc.png"); */
     }
 
     #burger {
@@ -290,7 +314,7 @@ img#tv {
     /* Mudar o formato do menu quando estiver em outras midias */
 
     body {
-        background-image: url("/assets/pictures/back-tv.png");
+        background-image: url("../back-tv.png");
         background-repeat: repeat-x;
         background-attachment: fixed;
     }
